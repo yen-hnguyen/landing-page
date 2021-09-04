@@ -80,6 +80,21 @@ p {
   text-decoration: underline;
 }
 
+.apps-info {
+  text-align: start;
+}
+
+@media (max-width: 768px) {
+  .apps-titles,
+  .apps {
+    display: flex;
+    justify-content: center;
+  }
+  .apps-info {
+    text-align: center;
+  }
+}
+
 .apps {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
